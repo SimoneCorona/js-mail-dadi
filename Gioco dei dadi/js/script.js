@@ -9,11 +9,11 @@ console.log("Il mio numero é", cpu_num_rand);
 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 let winner_game
-    if (user_num_rand = cpu_num_rand) {
+    if (user_num_rand === cpu_num_rand) {
         winner_game = "Abbiamo pareggiato!";
     } else if (user_num_rand < cpu_num_rand) {
         winner_game = "Hai perso!";
-    } else (user_num_rand > cpu_num_rand) 
+    } else if (user_num_rand > cpu_num_rand) 
         winner_game = "Hai vinto!";
     console.log(winner_game)
     
